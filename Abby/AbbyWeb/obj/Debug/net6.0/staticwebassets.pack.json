@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AbbyWeb.bundle.scp.css"
     },
     {
+      "Id": "F:\\AbbyProject\\Abby\\AbbyWeb\\wwwroot\\css\\Bootswatch_Cyborg.css",
+      "PackagePath": "staticwebassets\\css\\Bootswatch_Cyborg.css"
+    },
+    {
       "Id": "F:\\AbbyProject\\Abby\\AbbyWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

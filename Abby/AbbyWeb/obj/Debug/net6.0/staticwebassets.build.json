@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4Sx0ryaOsbr9ocY6KU6n8AF/sttuzPDetj+jAqiVaAI=",
+  "Hash": "FJZRwRfdE43KXwnI0DOKBrYmlIZDceG/ATOlG9GA4GM=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\AbbyProject\\Abby\\AbbyWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AbbyWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\AbbyProject\\Abby\\AbbyWeb\\wwwroot\\css\\Bootswatch_Cyborg.css",
+      "SourceId": "AbbyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\AbbyProject\\Abby\\AbbyWeb\\wwwroot\\",
+      "BasePath": "_content/AbbyWeb",
+      "RelativePath": "css/Bootswatch_Cyborg.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Bootswatch_Cyborg.css"
     },
     {
       "Identity": "F:\\AbbyProject\\Abby\\AbbyWeb\\wwwroot\\css\\site.css",
