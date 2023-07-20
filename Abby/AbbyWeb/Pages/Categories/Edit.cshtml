@@ -9,7 +9,7 @@
         </div>
         <div asp-validation-summary="All"></div>
         <div>
-            <input asp-for="Category.Id" hidden="hidden" />
+            <input asp-for="Category.Id" hidden="hidden" type="hidden  />
         </div>
         <div class="mb-3">
             <label asp-for="Category.Name"></label>
@@ -22,6 +22,7 @@
             <span asp-validation-for="Category.DisplayOrder" class="text-danger"></span>
         </div>
         <button type="submit" class="btn btn-primary" style="width:150px;">Update</button>
+        <a asp-page="Index" class="btn btn-secondary" style="width:150px;">Back to list</a>
     </div>
 </form>
 
