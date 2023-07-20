@@ -7,20 +7,24 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 namespace AbbyWeb.Pages.Categories
 {
     [BindProperties]
-    public class CreateModel : PageModel
+    public class EditModel : PageModel
     {
         private readonly AppDbContext _db;
 
         public Category Category { get; set; }
 
-        public CreateModel(AppDbContext db)
+        public EditModel(AppDbContext db)
         {
             _db = db;
         }
 
 
-        public void OnGet()
+        public void OnGet(int id)
         {
+            Category = _db.Category.Find(id);
+            //Category = _db.Category.FirstOrDefault(u=>u.Id==id);
+            //Category = _db.Category.SingleOrDefault(u=>u.Id==id);
+            //Category = _db.Category.Where(u=>u.Id==id).FirstOrDefault();
         }
 
         public async Task<IActionResult> OnPost()
@@ -30,10 +34,10 @@ namespace AbbyWeb.Pages.Categories
             }
 
             if(ModelState.IsValid) 
-            { 
-                await _db.Category.AddAsync(Category);
+            {
+                _db.Category.Update(Category);   
                 await _db.SaveChangesAsync();
-                return RedirectToPage("Index");
+                return RedirectToPage("Index"); 
             }
             return Page();  
         }
