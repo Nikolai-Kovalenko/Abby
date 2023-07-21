@@ -29,9 +29,16 @@ namespace AbbyWeb.Pages.Categories
 
         public async Task<IActionResult> OnPost()
         {
-                _db.Category.Remove(Category);   
+            var categoryFromDb = _db.Category.Find(Category.Id);
+            if(categoryFromDb != null) 
+            { 
+                _db.Category.Remove(categoryFromDb);   
                 await _db.SaveChangesAsync();
-                return RedirectToPage("Index"); 
+                TempData["success"] = "Category deleted seccessfely";
+                return RedirectToPage("Index");
+            }
+
+            return Page();  
         }
     }
 }
