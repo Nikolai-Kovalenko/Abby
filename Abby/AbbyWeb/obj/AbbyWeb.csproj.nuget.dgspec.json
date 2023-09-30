@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj": {}
+    "F:\\Project\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj": {}
   },
   "projects": {
-    "F:\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj": {
+    "F:\\Project\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj",
+        "projectUniqueName": "F:\\Project\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj",
         "projectName": "AbbyWeb",
-        "projectPath": "F:\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj",
+        "projectPath": "F:\\Project\\AbbyProject\\Abby\\AbbyWeb\\AbbyWeb.csproj",
         "packagesPath": "C:\\Users\\nik\\.nuget\\packages\\",
-        "outputPath": "F:\\AbbyProject\\Abby\\AbbyWeb\\obj\\",
+        "outputPath": "F:\\Project\\AbbyProject\\Abby\\AbbyWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nik\\AppData\\Roaming\\NuGet\\NuGet.Config",
